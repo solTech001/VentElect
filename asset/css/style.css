@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lobster&family=Open+Sans&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =========================== Navbar =================== */
+.navbar{
+    background-color: navy !important;
+  }
+
+.navbar button{
+    background: rgb(230, 216, 216) !important; 
+}
+.navbar a{
+    color: white;
+}
+
+
+
+.navbar-brand span{
+    font-family: 'Bungee Spice', cursive;
+ 
+}
+
+/* ======================== Register =============================  */
+.register .card{
+    z-index: -1;
+    border-radius: 25px !important;
+}
+
+.register ::placeholder{
+    color:navy;
+    border-bottom: 2px navy solid;
+    outline: none !important;
+}
+.register button{
+    background-color: navy !important;
+}
+.dashbar{
+    background-color: navy !important;
+}
